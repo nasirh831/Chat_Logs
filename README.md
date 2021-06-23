@@ -11,10 +11,10 @@ Eclipse
 Steps to install
 1. Clone the application
 
-https://github.com/scbushan05/spring-boot-hibernate-webapp.git
 2. Create MySQL database
 
 CREATE DATABASE chat
+
 3. Create table or run the sql script file
 
 CREATE DATABASE chat;
@@ -29,6 +29,8 @@ CREATE TABLE chats
     issend VARCHAR(255),
     TIMESTAMP BIGINT
 );
+
+
 4. Change MySQL username and password as per your installation
 
 open src/main/resources/application.properties file.
